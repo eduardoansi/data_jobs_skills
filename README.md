@@ -9,6 +9,8 @@ Locations are selected based on my personal preferences, but they are probably s
 - Checks if terms in a "data science glossary" appear in job descriptions at least once;
 - Rank how many jobs contain each term.
 
+<img src="https://github.com/eduardoansi/data_jobs_skills/blob/main/figure1.png" alt="Ranking" width="80%">
+
 ### Next steps:
 
 - Combine terms that mean the same thing (e.g. nosql and no-sql / english and inglés);
