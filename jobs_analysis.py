@@ -93,16 +93,11 @@ df_result = pd.DataFrame.from_dict(dict_containsword, orient="index", columns=["
 df_result.sort_values("count", ascending=False, inplace=True)
 
 # Plot bars with most occurences
-(df_result*100/df_clean.shape[0]).head(50).plot(kind="barh", legend=None, figsize=(16,16))
-
-                         
-
-                         
-
-                         
-
-                         
-
-                         
-
-                         
+ax = (df_result*100/df_clean.shape[0]).head(30).\
+      plot(kind="barh", 
+           legend=None, 
+           figsize=(16,16), 
+           xlim=(0,100), 
+           xticks=np.arange(0,101,10), 
+           title="Percentage of job offers that include a term")
+ax.invert_yaxis()
