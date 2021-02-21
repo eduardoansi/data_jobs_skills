@@ -2,7 +2,7 @@
 
 I decided to do a little research about what are the most coveted skills for a data scientist applying for a job in this field.
 
-Locations are selected based on my personal preferences, but they are probably significant enough to give a big picutre.
+Locations are selected based on my personal preferences, but they are probably significant enough to give a big picutre. Dataset is somewhat limited (around 68 job offers), but will be increased over time.
 
 ### Current version:
 
